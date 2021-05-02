@@ -1,0 +1,463 @@
+@font-face {
+    font-family: "Cinzel";
+    src: url(../Fonts/Cinzel.ttf);
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../Fonts/Roboto.ttf);
+}
+
+body{
+    font-family: "Roboto";
+ 
+}
+
+
+.hero{
+    background-image: linear-gradient(120deg, rgba(166, 192, 254, 0.699) 0%, rgba(246, 128, 132, 0.795) 100%), url("../Assets/Consultoria.jpg");
+    width: 100%;
+    height: 650px;
+    position: relative;
+
+
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Cinzel";
+
+}
+
+.main{
+    margin-top: 100px;
+    padding: 15px;   
+}
+
+.Body1{
+    background-image: linear-gradient(120deg, rgba(166, 192, 254, 0.699) 0%, rgba(246, 128, 132, 0.795) 100%), url("../Assets/Consultoria.jpg");
+    
+}
+
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    margin-top: 100px;
+    border-radius: 7px;
+
+}
+
+h2{
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+}
+
+textarea{
+    min-height: 10px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+.Boton{
+    background:rgba(246, 128, 132, 0.795);
+    color: white;
+
+}
+
+
+.texto{
+    height: 500px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+background-color: indianred;
+color: aliceblue;
+width: 100%;
+height: 145px;
+position: relative;
+text-align: center;
+padding: 30px 0;
+}
+
+
+
+
+.welcome_title{
+    font-size: 2em;
+    position: relative;
+    top: -10px;
+
+}
+
+
+
+
+.welcome_title:before{
+content: "";
+width: 30%;
+position: absolute;
+top: -30px;
+left: 35%;
+height: 3px;
+background: indianred;
+
+}
+
+
+.welcome{
+    text-align: center;
+    padding: 30px 0;
+    max-width: 650px;
+    margin:auto;
+}
+
+
+
+.welcome_txt{
+ font-size: 1.3em;
+ color: black
+}
+
+
+.container-design{
+    margin: 10px 0;
+    
+}
+
+
+.design_item{
+    position: relative;
+}
+
+.design_item:before{
+    content: "";
+    width: 102%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.design_title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-600%);
+    color: white;
+    font-size: 1.9em;
+    width: 100%;
+    text-align: center;
+
+}
+
+.design_title:before{
+    content: "";
+    width: 30%;
+    position: absolute;
+    top: -20px;
+    left: 35%;
+    height: 3px;
+    background: indianred;
+}
+
+
+
+.container-design{
+    display: flex;
+    flex-wrap: wrap;
+}
+ .design_item{
+     width: 50%;
+ }
+
+
+ .design_item1{
+    position: relative;
+}
+
+.design_item1:before{
+    content: "";
+    width: 102%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+ 
+
+
+.design_title1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-500%);
+    color: white;
+    font-size: 1.8em;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+
+.design_title1:before{
+    content: "";
+    width: 30%;
+    position: absolute;
+    top: -40px;
+    left: 35%;
+    height: 3px;
+    background: indianred;
+
+}
+
+
+.design_item1{
+    width: 50%;
+}
+
+
+
+.contenido_txt1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-30%);
+    color: white;
+    font-size: 1.8em;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+
+
+
+@media screen and (min-width: 1029px){
+
+    .design_item{
+        height: 450px;
+
+    
+    }
+    
+    .container-design .design_img{
+        height: 100%;
+        object-fit: cover;
+    }
+    
+
+}
+    
+
+
+@media screen and (min-width: 1029px){
+
+    .design_item1{
+        height: 450px;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+
+
+    }
+    
+    .container-design .design_img1{
+        height: 100%;
+
+    }
+    
+
+}
+
+.escenario_title{
+    font-size: 2em;
+    position: relative;
+    text-align: center;
+    top: -10px;
+  
+    
+
+
+}
+
+.escenario_title:before{
+content: "";
+width: 200px;
+position: absolute;
+top: -20px;
+left: 50%;
+transform: translateX(-50%);
+height: 3px;
+background: indianred;
+
+}
+
+
+.container-escenario{
+text-align: center;
+padding: 30px 0;
+max-width: 650px;
+margin:auto;
+}
+
+
+
+.escenario_img{
+width: 400px;
+height: 400px;    
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+
+  
+}
+
+.escenario_txt{
+    font-size: 1.3em;
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+
+
+
+.escenario_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.escenario_txt1{
+    font-size: 1.3em;
+    color: black;
+   
+
+
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+.container .card{
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+
+
+}
+
+
+.container .card img{
+    width: 200px;
+    height: 200px;
+
+
+}
+
+
+.btn-color{
+    color: white;
+    background-color: indianred;
+}
+
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    height: auto;
+    width: 100vw;
+    padding-top: 20px;
+    color: white;
+
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    text-align: center;
+}
+
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+max-width: 500px;
+margin: 10px auto;
+line-height: 28px;
+font-size: 14px;
+
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+
+.persona{
+
+    text-align: center;
+
+}
+
+.persona-title:before{
+    content: "";
+    width: 30%;
+    position: absolute;
+    top: -30px;
+    left: 35%;
+    height: 3px;
+    background: indianred;
+}
